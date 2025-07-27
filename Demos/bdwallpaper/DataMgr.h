@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+ï»¿#include "StdAfx.h"
 #include <atlstr.h>
 #include <WinInet.h>
 #pragma comment(lib, "WinInet.lib")
@@ -98,7 +98,7 @@ public:
 		//	ntotal = atoi(totalpage.c_str());
 		//}
 		int ntotal = 10;
-		// ·ÖÀàÒ³Êý
+		// Â·Ã–Ã€Ã Ã’Â³ÃŠÃ½
 		WPPage *pPage = new WPPage;
 		pPage->sType = sType;
 		pPage->nTotalPage = ntotal;
@@ -124,7 +124,7 @@ public:
 		{
 			WPInfo Info;
 			Info.flag = "flag";
-			Info.flag_desc = "¼ò½é";
+			Info.flag_desc = "Â¼Ã²Â½Ã©";
 			Info.id = "id";
 			Info.thumb_mid = urls[rand()%1];
 			Info.thumb_nail = urls[rand()%1];

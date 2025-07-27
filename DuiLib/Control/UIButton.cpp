@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+﻿#include "StdAfx.h"
 #include "UIButton.h"
 
 namespace DuiLib
@@ -704,7 +704,7 @@ namespace DuiLib
 	void CButtonUI::DrawBorder(HDC hDC, const RECT& rcItem, const DWORD& dwBorderColor, const int& nBorderSize, const RECT& rcBorderSize, const SIZE& cxyBorderRound, const int& nBorderStyle)
 	{
 		if (dwBorderColor != 0) {
-			//��Բ�Ǳ߿�
+			//»­Ô²½Ç±ß¿ò
 			if (nBorderSize > 0 && (cxyBorderRound.cx > 0 || cxyBorderRound.cy > 0)) {
 					CRenderEngine::DrawRoundRect(hDC, rcItem, nBorderSize, cxyBorderRound.cx, cxyBorderRound.cy, GetAdjustColor(dwBorderColor), nBorderStyle);
 			}

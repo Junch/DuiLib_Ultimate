@@ -1,4 +1,4 @@
-#ifndef __WPPANEL_H__
+ï»¿#ifndef __WPPANEL_H__
 #define __WPPANEL_H__
 #include <stdlib.h>
 #include <time.h>
@@ -10,7 +10,7 @@ namespace DuiLib
 	public:
 		CWPPanel()
 		{
-			// ²¼¾Ö¼ÆËã
+			// â‰¤ÂºÃ¦Ã·Âºâˆ†Ã€â€ž
 			int aaLayouts[4][4] = {{4,1,1,4},{1,4,4,1},{4,4,1,1},{1,1,4,4}};
 			srand(time(NULL));
 			int nLayout = rand() % 4;

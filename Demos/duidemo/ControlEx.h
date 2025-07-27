@@ -1,4 +1,4 @@
-#ifndef __CONTROLEX_H__
+Ôªø#ifndef __CONTROLEX_H__
 #define __CONTROLEX_H__
 
 
@@ -23,7 +23,7 @@ public:
 	void PaintForeColor(HDC hDC)
 	{
 		Gdiplus::Graphics g(hDC);
-		g.SetSmoothingMode(Gdiplus::SmoothingModeHighQuality);//øπæ‚≥›
+		g.SetSmoothingMode(Gdiplus::SmoothingModeHighQuality);//¬ø¬π¬æ√¢¬≥√ù
 
 		RECT rcPos = GetPos();
 		

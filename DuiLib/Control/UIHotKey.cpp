@@ -1,4 +1,4 @@
-#include "stdafx.h"
+О╩©#include "stdafx.h"
 #include "UIHotKey.h"
 namespace DuiLib{
 	CHotKeyWnd::CHotKeyWnd(void) : m_pOwner(NULL), m_hBkBrush(NULL), m_bInit(false)
@@ -127,7 +127,7 @@ namespace DuiLib{
 		if( m_pOwner == NULL ) return 0;
 		GetHotKey(m_pOwner->m_wVirtualKeyCode, m_pOwner->m_wModifiers);
 		if (m_pOwner->m_wVirtualKeyCode == 0) {
-			m_pOwner->m_sText = _T("нч");
+			m_pOwner->m_sText = _T("п╫я┤");
 			m_pOwner->m_wModifiers = 0;
 		}
 		else {
